@@ -61,3 +61,44 @@ This project demonstrates practical implementation of:
 ---
 
 ## 📁 Project Structure
+privy-secure-engine/
+│
+├── main.py # Flask backend
+├── pse_all_in_one.py # GUI Dashboard
+├── index.html # Web frontend
+├── pse.db # Database
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/privy-secure-engine.git
+cd privy-secure-engine
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+3️⃣ Run Backend Server
+python main.py
+
+Server will run on:
+
+http://127.0.0.1:5000
+4️⃣ Run GUI Dashboard (Optional)
+python pse_all_in_one.py
+5️⃣ Open Web Dashboard
+
+Open:
+
+index.html
+🌐 Deployment
+
+This project can be deployed using:
+
+Render (recommended)
+AWS / Azure
+Docker (future upgrade)
